@@ -8,6 +8,7 @@ hdfs dfs -mkdir /user/hive/warehouse/raw.db/orders
 hdfs dfs -mkdir /user/hive/warehouse/raw.db/product_category
 hdfs dfs -mkdir /user/hive/warehouse/raw.db/products
 hdfs dfs -mkdir /user/hive/warehouse/raw.db/sellers
+hdfs dfs -mkdir /user/hive/warehouse/raw.db/enderecos_python
 
 # Comandos para alterar a permissao dos diretorios
 hdfs dfs -chmod 775 /user/hive/warehouse/raw.db/customers
@@ -19,3 +20,4 @@ hdfs dfs -chmod 775 /user/hive/warehouse/raw.db/orders
 hdfs dfs -chmod 775 /user/hive/warehouse/raw.db/product_category
 hdfs dfs -chmod 775 /user/hive/warehouse/raw.db/products
 hdfs dfs -chmod 775 /user/hive/warehouse/raw.db/sellers
+hdfs dfs -chmod 775 /user/hive/warehouse/raw.db/enderecos_python

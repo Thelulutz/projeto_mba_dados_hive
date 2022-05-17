@@ -8,3 +8,4 @@ hdfs dfs -put /tmp/olist_orders_dataset.csv /user/hive/warehouse/raw.db/orders
 hdfs dfs -put /tmp/product_category_name_translation.csv /user/hive/warehouse/raw.db/product_category
 hdfs dfs -put /tmp/olist_products_dataset.csv /user/hive/warehouse/raw.db/products
 hdfs dfs -put /tmp/olist_sellers_dataset.csv /user/hive/warehouse/raw.db/sellers
+hdfs dfs -put /tmp/lista_enderecos_python.csv /user/hive/warehouse/raw.db/enderecos_python
