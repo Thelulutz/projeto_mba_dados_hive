@@ -39,7 +39,7 @@ df_final = pd.merge(df_clientes, df_geolocation, how='left', left_on=['customer_
 df_final = df_final[['customer_id', 'customer_unique_id', 'customer_zip_code_prefix', 'customer_city', 'customer_state', 'geolocation_lat', 'geolocation_lng']]
 df_final = df_final.dropna(subset=['geolocation_lat'])
 df_final = df_final.drop_duplicates(['customer_id']).sort_values(by=['customer_id']).reset_index(drop=True)
-for x in range(11200, df_final.tail(1).index.item(), intervalo):
+for x in range(0, df_final.tail(1).index.item(), intervalo):
     df_pedaco = None
     inicio = x
     if x + intervalo > df_final.tail(1).index.item():
