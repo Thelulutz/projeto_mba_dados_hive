@@ -65,7 +65,7 @@ FROM
 LEFT JOIN
     clientes
 ON
-    pedidos.id_pedido = clientes.id_cliente
+    pedidos.id_cliente = clientes.id_pedido
 LEFT JOIN
     produtos
 ON
